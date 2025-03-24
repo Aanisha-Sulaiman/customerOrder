@@ -31,5 +31,4 @@ public class CustomerService {
     public void deleteCustomer(Long id) {
         repository.deleteById(id);
     }
-
 }
